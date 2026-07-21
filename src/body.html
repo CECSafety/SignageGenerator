@@ -1,0 +1,214 @@
+<!-- ===== MASTHEAD ===== -->
+<header class="masthead">
+  <div class="folio">
+    <span>
+      <span>VOL. 01</span>
+      <span>ISSUE 01</span>
+      <span>FIELD EDITION</span>
+    </span>
+    <span><span id="folio-date">—</span></span>
+  </div>
+  <div class="masthead-row">
+    <div class="brand-mark">
+      <img id="brand-logo" alt="CEC" src="">
+      <div>
+        <div class="brand-text">SAFETY STUDIO</div>
+        <div class="brand-sub">A CEC Field Publication · OSHA · NFPA 70E · NEC</div>
+      </div>
+    </div>
+    <div></div>
+    <div class="masthead-meta">
+      Built for the Field<br>
+      <b>Approved Signage System</b>
+    </div>
+  </div>
+</header>
+
+<!-- ===== TABS ===== -->
+<nav class="tabs">
+  <div class="tabs-inner">
+    <button class="tab active" data-view="browse"><span class="num">01</span>Browse Catalog</button>
+    <button class="tab" data-view="compose"><span class="num">02</span>Compose Sign</button>
+    <button class="tab" data-view="infographic"><span class="num">03</span>Infographic Builder</button>
+    <button class="tab" data-view="analyzer"><span class="num">04</span>Policy Analyzer</button>
+    <button class="tab" data-view="brand"><span class="num">05</span>Brand &amp; Voice</button>
+  </div>
+</nav>
+
+<main>
+  <!-- ===== BROWSE ===== -->
+  <section class="view active" id="view-browse">
+    <header class="page-head">
+      <div>
+        <div class="kicker">The Catalog · 41 Templates</div>
+        <h1>Field-Ready<br>Safety Signage.</h1>
+      </div>
+      <p class="lede">Every template carries the citation that makes it defensible — every blank field asks the question your superintendent would ask.</p>
+    </header>
+
+    <div class="filters">
+      <span class="filter-label">Filter</span>
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="LOTO">LOTO</button>
+      <button class="chip" data-filter="ELECTRICAL">Electrical</button>
+      <button class="chip" data-filter="ARC_FLASH">Arc Flash</button>
+      <button class="chip" data-filter="ENERGIZED">Energized Work</button>
+      <button class="chip" data-filter="EXCAVATION">Excavation / Trenching</button>
+      <button class="chip" data-filter="CONFINED_SPACE">Confined Space</button>
+      <button class="chip" data-filter="FALL">Fall / Ladders</button>
+      <button class="chip" data-filter="PPE">PPE</button>
+      <button class="chip" data-filter="CRANE">Cranes / Rigging</button>
+      <button class="chip" data-filter="SCAFFOLDING">Scaffolding</button>
+      <button class="chip" data-filter="HOT_WORK">Hot Work</button>
+      <button class="chip" data-filter="SILICA">Silica</button>
+      <button class="chip" data-filter="HEAT">Heat Illness</button>
+      <button class="chip" data-filter="FORKLIFT">Forklift</button>
+      <button class="chip" data-filter="MACHINE">Machine Guarding</button>
+      <button class="chip" data-filter="EMERGENCY">Emergency</button>
+      <button class="chip" data-filter="HAZCOM">HazCom</button>
+      <input type="text" class="search-input" placeholder="Search templates…" id="search-input">
+    </div>
+
+    <div class="masonry" id="masonry"></div>
+  </section>
+
+  <!-- ===== COMPOSE ===== -->
+  <section class="view" id="view-compose">
+    <header class="page-head">
+      <div>
+        <div class="kicker" id="compose-kicker">Compose · Sign Editor</div>
+        <h1 id="compose-title">Configure Sign</h1>
+      </div>
+      <p class="lede">Edit the message. The preview redraws as you type. Print-ready when you're ready.</p>
+    </header>
+
+    <div class="compose-grid">
+      <div class="editor" id="editor"></div>
+      <div class="preview-pane">
+        <div class="preview-window">
+          <div class="preview-tabs">
+            <button class="preview-tab active" data-mode="paper">Paper</button>
+            <button class="preview-tab" data-mode="print">Print Proof</button>
+            <button class="preview-tab" data-mode="field">In Field</button>
+          </div>
+          <div class="preview-stage" data-mode="paper" id="preview-stage"></div>
+          <div class="preview-toolbar">
+            <span id="preview-meta">8.5″ × 11″ · Portrait</span>
+            <button class="btn-print" id="btn-print">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+              Print / Save PDF
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== INFOGRAPHIC ===== -->
+  <section class="view" id="view-infographic">
+    <header class="page-head">
+      <div>
+        <div class="kicker">Infographic · Editorial Builder</div>
+        <h1>Tell the Hazard's<br>Whole Story.</h1>
+      </div>
+      <p class="lede">A single sign warns. An infographic teaches — pre-job briefings, training rooms, toolbox talks.</p>
+    </header>
+
+    <div class="info-toolbar">
+      <span class="filter-label">Topic</span>
+      <select class="search-input" id="ig-topic" style="max-width: 280px;"></select>
+      <button class="chip active" data-ig-action="reset">Load Template</button>
+      <button class="chip" data-ig-action="randomize">Surprise Me</button>
+      <button class="btn-print" id="btn-print-ig" style="margin-left: auto;">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 6 2 18 2 18 9"/><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><rect x="6" y="14" width="12" height="8"/></svg>
+        Print Infographic
+      </button>
+    </div>
+
+    <div class="hero-photo-row">
+      <div class="hero-photo-head">
+        <span class="filter-label">Hero Photo Library</span>
+        <div class="hero-actions">
+          <button class="chip" data-ig-action="hero-clear">Use Illustration</button>
+          <button class="chip" data-ig-action="hero-suggest">Browse Unsplash ↗</button>
+        </div>
+      </div>
+      <div class="hero-gallery" id="hero-gallery"></div>
+      <div class="hero-url-row">
+        <span class="filter-label">Custom URL</span>
+        <input type="text" class="search-input" id="ig-hero-url" placeholder="Or paste any image URL — Unsplash, Pexels, Wikimedia, your own server…">
+      </div>
+    </div>
+
+    <div class="info-canvas" id="info-canvas"></div>
+  </section>
+
+  <!-- ===== POLICY ANALYZER ===== -->
+  <section class="view" id="view-analyzer">
+    <header class="page-head">
+      <div>
+        <div class="kicker">Policy Analyzer · Stringency Comparator</div>
+        <h1>Two Documents.<br>One Answer.</h1>
+      </div>
+      <p class="lede">Drop the site-specific safety plan beside the company policy. The stricter requirement wins — and the right signs are recommended.</p>
+    </header>
+
+    <div class="analyzer-grid">
+      <div class="doc-input site">
+        <div class="doc-input-head">
+          <h3>Site-Specific Plan</h3>
+          <span class="meta">Project / Job-Specific</span>
+        </div>
+        <textarea id="site-doc" placeholder="Paste the site safety plan here — fall protection, trenching, hearing, energized-work, confined space, PPE requirements…"></textarea>
+        <button class="load-sample" data-sample="site">＋ Load sample plan</button>
+      </div>
+      <div class="doc-input company">
+        <div class="doc-input-head">
+          <h3>Company Policy</h3>
+          <span class="meta">Corporate Standard</span>
+        </div>
+        <textarea id="company-doc" placeholder="Paste the corporate safety policy here — minimum standards that apply across all CEC projects…"></textarea>
+        <button class="load-sample" data-sample="company">＋ Load sample policy</button>
+      </div>
+    </div>
+
+    <div class="analyzer-actions">
+      <span class="hint">When the site and the company disagree, the stricter requirement stands. The analyzer will pull the values, compare them, and show the result.</span>
+      <button class="btn-analyze" id="btn-analyze">Analyze &amp; Recommend →</button>
+    </div>
+
+    <div id="analysis-results">
+      <div class="analysis-empty">
+        Paste both documents above and click Analyze. The results will appear here — stringency comparisons by topic, plus a posting manifest of recommended signs.
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== BRAND ===== -->
+  <section class="view" id="view-brand">
+    <header class="page-head">
+      <div>
+        <div class="kicker">Brand · Identity System</div>
+        <h1>Choose Your<br>Mark.</h1>
+      </div>
+      <p class="lede">The mark you pick appears on every sign and infographic generated. Pick one. Lock it for the project.</p>
+    </header>
+
+    <div class="brand-grid" id="brand-grid"></div>
+
+    <div class="voice-config">
+      <h3>Voice &amp; Tone Defaults</h3>
+      <div class="field">
+        <label>Default Approval Footer</label>
+        <input type="text" id="voice-approval" value="Reviewed and approved by CEC Safety Representative prior to field posting.">
+      </div>
+      <div class="field">
+        <label>Sign Footer Tagline</label>
+        <input type="text" id="voice-tagline" value="CEC Safety Program · Built for the Field">
+      </div>
+    </div>
+  </section>
+</main>
+
+<div id="toast-container"></div>
+

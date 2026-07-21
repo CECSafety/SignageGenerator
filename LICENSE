@@ -1,0 +1,35 @@
+Proprietary License — CEC Safety Studio
+
+Copyright (c) 2026 CEC Companies. All rights reserved.
+
+This software and associated documentation files (the "Software") are the
+proprietary and confidential property of CEC Companies. Unauthorized
+copying, distribution, modification, public display, or public performance
+of the Software, in whole or in part, is strictly prohibited without the
+express prior written consent of CEC Companies.
+
+The Software is provided "as is", without warranty of any kind, express or
+implied, including but not limited to the warranties of merchantability,
+fitness for a particular purpose, and noninfringement. In no event shall
+CEC Companies or the authors be liable for any claim, damages, or other
+liability, whether in an action of contract, tort, or otherwise, arising
+from, out of, or in connection with the Software or the use or other
+dealings in the Software.
+
+--- Third-party components ---
+
+Fonts loaded at runtime from Google Fonts (Inter, JetBrains Mono) are
+subject to the SIL Open Font License, Version 1.1.
+See: https://scripts.sil.org/OFL
+
+Photo library URLs reference Unsplash CDN. All photos are provided under
+the Unsplash License (https://unsplash.com/license), which permits free
+use for commercial and noncommercial purposes.
+
+Safety and regulatory text quotes and citations reference:
+  29 CFR 1910 (General Industry)
+  29 CFR 1926 (Construction)
+  NFPA 70E (Electrical Safety in the Workplace)
+  ANSI Z535 (Product Safety Signs & Labels)
+  and related published standards.
+These regulatory sources are in the public domain in the United States.

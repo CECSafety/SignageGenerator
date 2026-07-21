@@ -1,0 +1,15 @@
+CEC COMPANIES — STANDARD SAFETY POLICY (Rev. 2026)
+
+CEC requires fall protection at any height above 4 feet — stricter than OSHA construction. 100% tie-off, no exceptions. ANSI Z359-rated full-body harness with shock-absorbing lanyard or self-retracting lifeline mandatory.
+
+Excavation work requires a protective system at any depth where a competent person identifies cave-in potential, or at 4 feet, whichever is shallower. Daily inspections logged.
+
+Hearing protection is required at 80 dBA — stricter than the OSHA action level. All exposed personnel enrolled in the hearing conservation program with annual audiograms.
+
+All energized work above 50V requires Energy Marshal posted and arc flash boundary established. Arc-rated PPE matched to incident energy at 1.2 cal/cm² threshold. Limited approach boundary marked.
+
+Confined spaces are treated as permit-required by default unless a competent person reclassifies per the written program. Entry permit, attendant, and rescue plan required.
+
+PPE: hard hat (ANSI Z89.1), safety glasses (ANSI Z87.1), cut-resistant gloves, steel-toe boots (ASTM F2413), high-visibility vest, hearing protection in posted zones, plus task-specific PPE per JSA.
+
+Lockout/Tagout: Comprehensive LOTO program covering electrical, mechanical, hydraulic, pneumatic, and stored energy. Group lockout procedure required for multi-employee servicing. Authorized employee training annually.

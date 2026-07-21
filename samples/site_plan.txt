@@ -1,0 +1,15 @@
+SITE-SPECIFIC SAFETY PLAN — Project: New 138kV Substation, Mile Marker 47
+
+Fall Protection: Personal fall arrest systems are required for all work at 6 feet or above. Anchor points must be inspected daily before each use.
+
+Excavation: Trenches deeper than 5 feet require a protective system — sloping, shoring, or trench shield. Competent person to inspect before each shift and after rainstorms.
+
+Hearing Protection: Required in zones exceeding 85 dBA. Earplugs and earmuffs are available at the site office.
+
+Energized Electrical Work: Work above 50V on exposed conductors requires an energized work permit and a qualified person. Arc-rated PPE per NFPA 70E. Arc flash boundary of 4 feet established at the main switchgear.
+
+Confined Space: Underground vaults and manholes to be classified case-by-case by the competent person.
+
+PPE: Hard hat, safety glasses, gloves, and steel-toe boots required in all active work areas.
+
+Lockout/Tagout: Standard LOTO procedure for de-energization of switchgear during maintenance.
